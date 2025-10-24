@@ -14,6 +14,10 @@
   <IconUrl DefaultValue="https://raw.githubusercontent.com/hdrelon/Add-on/main/icon.png"/>
   <HighResolutionIconUrl DefaultValue="https://raw.githubusercontent.com/hdrelon/Add-on/main/iconhigh.png"/>
 
+  <AppDomains>
+    <AppDomain>https://raw.githubusercontent.com</AppDomain>
+  </AppDomains>
+
   <Hosts>
     <Host Name="Mailbox"/>
   </Hosts>
@@ -36,4 +40,3 @@
   <Permissions>ReadItem</Permissions>
 
 </OfficeApp>
-
