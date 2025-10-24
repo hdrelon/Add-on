@@ -23,7 +23,7 @@
   </Requirements>
 
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://maisonsetcites-my.sharepoint.com/personal/helene_drelon_maisonsetcites_fr/Documents/Add-on/index.html"/>
+    <SourceLocation DefaultValue="https://raw.githubusercontent.com/hdrelon/Add-on/refs/heads/main/index.html"/>
   </DefaultSettings>
 
   <Permissions>ReadWriteMailbox</Permissions>
