@@ -22,7 +22,7 @@
   </Requirements>
 
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://raw.githubusercontent.com/hdrelon/Add-on/refs/heads/main/index.html"/>
+    <SourceLocation DefaultValue="https://raw.githubusercontent.com/hdrelon/Add-on/main/index.html"/>
   </DefaultSettings>
 
   <Permissions>ReadWriteMailbox</Permissions>
