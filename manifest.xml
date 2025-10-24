@@ -10,8 +10,6 @@
   <DisplayName DefaultValue="Nettoyer ma boîte Outlook"/>
   <Description DefaultValue="Assistant pour aider à nettoyer sa boîte mail"/>
   
-  <IconUrl DefaultValue="https://github.com/hdrelon/Add-on/raw/e4dbfc1f07ee99ce8fa6009323b48a7803079c7c/icon.png"/>
-  
   <Hosts>
     <Host Name="Mailbox"/>
   </Hosts>
