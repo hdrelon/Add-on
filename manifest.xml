@@ -10,7 +10,7 @@
   <DisplayName DefaultValue="Nettoyer ma boîte Outlook"/>
   <Description DefaultValue="Assistant pour aider à nettoyer sa boîte mail"/>
   <IconUrl DefaultValue="https://via.placeholder.com/32"/>
-  <HighResolutionIconUrl DefaultValue="https://via.placeholder.com/64"/>
+  <HighResolutionIconUrl DefaultValue="https://via.placeholder.com/64.png"/>
   <Hosts>
     <Host Name="Mailbox"/>
   </Hosts>
