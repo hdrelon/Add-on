@@ -9,7 +9,7 @@
   <DefaultLocale>fr-FR</DefaultLocale>
   <DisplayName DefaultValue="Nettoyer ma boîte Outlook"/>
   <Description DefaultValue="Assistant pour aider à nettoyer sa boîte mail"/>
-  <IconUrl DefaultValue="https://github.com/hdrelon/Add-on/raw/db3d37fec3000def27d1af4410f4c8fc882629fd/icon.png" />
+  <IconUrl DefaultValue="https://github.com/hdrelon/Add-on/raw/2d9377004b6e0ce312696a848836f5160ae79317/icon.png" />
   <HighResolutionIconUrl DefaultValue="https://github.com/hdrelon/Add-on/raw/a2989b8d68668cf03c8c3447ecc9fcb21f0461dd/iconhigh.png"/>
   <Hosts>
     <Host Name="Mailbox"/>
