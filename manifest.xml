@@ -1,28 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:type="MailApp">
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+           xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0"
+           xsi:type="MailApp">
 
-  <Id>11111111-2222-3333-4444-555555555555</Id>
+  <Id>f3a1b2c3-d4e5-6789-abcd-ef0123456789</Id>
   <Version>1.0.0.0</Version>
   <ProviderName>Nettoyage M365</ProviderName>
   <DefaultLocale>fr-FR</DefaultLocale>
   <DisplayName DefaultValue="Nettoyer ma boîte Outlook"/>
   <Description DefaultValue="Assistant pour aider à nettoyer sa boîte mail"/>
+  <IconUrl DefaultValue="https://raw.githubusercontent.com/hdrelon/Add-on/refs/heads/main/icon.png"/>
+  <HighResolutionIconUrl DefaultValue="https://raw.githubusercontent.com/hdrelon/Add-on/refs/heads/main/iconhigh.png"/>
 
   <Hosts>
     <Host Name="Mailbox"/>
   </Hosts>
 
   <Requirements>
-    <Sets DefaultMinVersion="1.3">
-      <Set Name="Mailbox"/>
+    <Sets>
+      <Set Name="Mailbox" MinVersion="1.1"/>
     </Sets>
   </Requirements>
 
-  <DefaultSettings>
-    <SourceLocation DefaultValue="https://raw.githubusercontent.com/hdrelon/Add-on/main/index.html"/>
-  </DefaultSettings>
+  <FormSettings>
+    <Form xsi:type="ItemRead">
+      <DesktopSettings>
+        <SourceLocation DefaultValue="https://raw.githubusercontent.com/hdrelon/Add-on/main/index.html"/>
+        <RequestedHeight>250</RequestedHeight>
+      </DesktopSettings>
+    </Form>
+  </FormSettings>
 
-  <Permissions>ReadWriteMailbox</Permissions>
+  <Permissions>ReadItem</Permissions>
+
 </OfficeApp>
+
