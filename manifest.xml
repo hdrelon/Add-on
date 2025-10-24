@@ -9,8 +9,8 @@
   <DefaultLocale>fr-FR</DefaultLocale>
   <DisplayName DefaultValue="Nettoyer ma boîte Outlook"/>
   <Description DefaultValue="Assistant pour aider à nettoyer sa boîte mail"/>
-  <IconUrl DefaultValue="https://via.placeholder.com/32"/>
-  <HighResolutionIconUrl DefaultValue="https://static2.sharepointonline.com/files/fabric/assets/brand-icons/product/svg/outlook_64x64.svg"/>
+  <IconUrl DefaultValue="https://static2.sharepointonline.com/files/fabric/assets/brand-icons/product/png/outlook_32x1.png"/>
+  <HighResolutionIconUrl DefaultValue="https://static2.sharepointonline.com/files/fabric/assets/brand-icons/product/png/outlook_64x1.png"/>
   <Hosts>
     <Host Name="Mailbox"/>
   </Hosts>
